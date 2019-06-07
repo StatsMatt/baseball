@@ -126,7 +126,7 @@ baseball.train<-baseball[-test, ]
 save(baseball.test,file="baseball_test.Rda")
 save(baseball.train,file="baseball_train.Rda")
 
-# Added later. Dummy variables for opponents chosen by Lasso
+# Dummy variables for opponents chosen by Lasso
 baseball.train$MON<-ifelse(baseball.train$Opp=="MON",1,0)
 baseball.train$CAL<-ifelse(baseball.train$Opp=="CAL",1,0)
 baseball.train$LAD<-ifelse(baseball.train$Opp=="LAD",1,0)
