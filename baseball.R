@@ -12,7 +12,6 @@ library(rvest)
 library(stringr)
 library(tidyverse)
 library(plyr)
-library(GGally)
 library(caret)
 # set the directory
 setwd("C:\\Users\\Matt\\Documents\\Statistics\\Stat_Learning")
@@ -125,13 +124,3 @@ baseball.train<-baseball[-test, ]
 
 save(baseball.test,file="baseball_test.Rda")
 save(baseball.train,file="baseball_train.Rda")
-
-# Dummy variables for opponents chosen by Lasso
-baseball.train$MON<-ifelse(baseball.train$Opp=="MON",1,0)
-baseball.train$CAL<-ifelse(baseball.train$Opp=="CAL",1,0)
-baseball.train$LAD<-ifelse(baseball.train$Opp=="LAD",1,0)
-baseball.train$OAK<-ifelse(baseball.train$Opp=="OAK",1,0)
-baseball.train$WSA<-ifelse(baseball.train$Opp=="WSA",1,0)
-
-cols <- c("MON","CAL","LAD","OAK","WSA")
-baseball.train[cols] <- lapply(baseball.train[cols],as.factor)
