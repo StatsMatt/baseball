@@ -2,7 +2,7 @@
 ## Author: Matt Misterka ##
 ## Date: 6/7/2019 ##
 
-# Program Description: This program grabs data from baseball-reference: https://www.baseball-reference.com/
+# Code Description: This code file grabs data from baseball-reference: https://www.baseball-reference.com/
 # Specifically, it scapes game-by-game data for pitchers Nolan Ryan and Tommy John.
 # The end-goal is to use the dataset to build a predictive model.
 # A model built on a training set that classifies the pitcher for each game in a test set.
