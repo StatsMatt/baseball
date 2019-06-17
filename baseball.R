@@ -12,7 +12,6 @@ library(rvest)
 library(stringr)
 library(tidyverse)
 library(plyr)
-library(caret)
 # set the directory
 setwd("C:\\Users\\Matt\\Documents\\Statistics\\Stat_Learning")
 
