@@ -1,0 +1,48 @@
+### taken from glossary tab ###
+Rslt -- Game Result for Team
+W - Win, L - Loss, T - Tie (for a suspended game)
+DR -- Days Rest
+Number or days since their previous appearance
+99 if start of season or 99 or more days (may include demotions)
+-1 if pitching both games of double-header.
+IP -- Innings Pitched
+H -- Hits/Hits Allowed
+R -- Runs Scored/Allowed
+ER -- Earned Runs Allowed
+BB -- Bases on Balls/Walks
+SO -- Strikeouts
+HR -- Home Runs Hit/Allowed
+HBP -- Times Hit by a Pitch.
+ERA -- 9 * ER / IP
+BF -- Batters Faced
+GB -- Ground Balls
+Includes bunts and all other ground balls.
+FB -- Fly Balls
+Includes Fly Balls, Line Drives, and Pop-Ups.
+LD -- Line Drives
+These are double-counted in Fly Balls as well.
+PU -- Pop Ups
+Generally, high fly balls that land within the infield circle.
+These are double-counted in Fly Balls as well.
+Unk -- Unknown batted ball type
+A ball in play for which we don’t know the type.
+SB -- Stolen Bases
+CS -- Caught Stealing
+PO -- Pickoffs
+Runner picked off a base. May include cases they were safe on an error. 
+Also includes Pickoff Caught Stealing plays.
+AB -- At Bats
+2B -- Doubles Hit/Allowed
+3B -- Triples Hit/Allowed
+IBB -- Intentional Bases on Balls
+First tracked in 1955.
+GDP -- Double Plays Grounded Into
+Only includes standard 6-4-3, 4-3, etc. double plays.
+First tracked in 1933.
+For gamelogs only in seasons we have play-by-play, we include triple plays as well.
+All official seasonal totals do not include GITP's.
+SF -- Sacrifice Flies
+First tracked in 1954.
+ROE -- Reached On Error
+Times a batter reached due to an error
+DOES NOT include a fielder’s choice where no out was recorded.
